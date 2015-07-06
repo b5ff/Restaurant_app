@@ -6,8 +6,8 @@
 
     angular.module('myApp').controller('AdminHomeController',AdminHomeContrlFn);
 
-    AdminHomeContrlFn.$inject = ['$rootScope','$http'];
-    function AdminHomeContrlFn($rootScope,$http){
+    AdminHomeContrlFn.$inject = ['$rootScope','$http','$route'];
+    function AdminHomeContrlFn($rootScope,$http,$route){
         var adminhmct = this;
 
         console.log("Admin Home Controller");
@@ -40,7 +40,7 @@
                 .error(function(error) {
                     console.log(error);
                 });
-
+            $route.reload();
         }
     }
 })();

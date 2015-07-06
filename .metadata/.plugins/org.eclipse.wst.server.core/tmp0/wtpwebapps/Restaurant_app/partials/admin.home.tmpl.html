@@ -16,8 +16,10 @@
 <!-- -----------Admin View Reservations content starts here----------- -->
 <div class="container v_container table-responsive">
     <div class="row">
-        <input text="search" placeholder="Search Reservations" ng-model="adminhmct.searchText">
+
         <div class="col-md-8">
+            <br>
+            <input text="search" placeholder="Search Reservations" ng-model="adminhmct.searchText" size="40">
             <table class="table table-striped" ng-table="tableParams">
                 <thead>
                 <tr class="dataFromDBTableHeader">
@@ -48,6 +50,7 @@
         </div>
         <div class="col-lg-4">
             <div ng-show="adminhmct.selectedres">
+                <br><br>
                 <h3>Details:</h3>
 
                 <p>Name: {{adminhmct.selectedres.name}}</p>

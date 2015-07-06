@@ -32,3 +32,9 @@
 .dataFromDBTableHeader{
     cursor: pointer;
 }
+.glyphicon-trash:hover{
+    color: black;
+}
+.glyphicon-edit:hover{
+    color: #black;
+}

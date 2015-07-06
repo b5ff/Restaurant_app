@@ -2,43 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aaccc8a3-3a2d-4132-bbff-abbe21f2f095" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap" afterPath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.core.resources/.projects/Restaurant_app/.markers.snap" afterPath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.core.resources/.projects/Restaurant_app/.markers.snap" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.core.resources/.projects/Servers/.markers.snap" afterPath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.core.resources/.projects/Servers/.markers.snap" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap" afterPath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.syncinfo.snap" afterPath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.syncinfo.snap" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.core.resources/.projects/Restaurant_app/.syncinfo.snap" afterPath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.core.resources/.projects/Restaurant_app/.syncinfo.snap" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.core.resources/.projects/Servers/.syncinfo.snap" afterPath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.core.resources/.projects/Servers/.syncinfo.snap" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.core.resources/0.snap" afterPath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.core.resources/0.snap" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.jdt.core/524307592.index" afterPath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.jdt.core/524307592.index" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/524307592.index" afterPath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/524307592.index" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/Restaurant_app/WEB-INF/classes/com/example/rest/CustomerController.class" afterPath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/Restaurant_app/WEB-INF/classes/com/example/rest/CustomerController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/classes/com/example/rest/CustomerController.class" afterPath="$PROJECT_DIR$/../target/classes/com/example/rest/CustomerController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/Restaurant_app/WEB-INF/classes/com/example/dao/CustomerDAO.class" afterPath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/Restaurant_app/WEB-INF/classes/com/example/dao/CustomerDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../target/classes/com/example/dao/CustomerDAO.class" afterPath="$PROJECT_DIR$/../target/classes/com/example/dao/CustomerDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.core.resources/.projects/Restaurant_app/.indexes/e4/81/96/92/history.index" afterPath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.core.resources/.projects/Restaurant_app/.indexes/e4/81/96/92/history.index" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.core.resources/.projects/Restaurant_app/.indexes/e4/81/96/d4/history.index" afterPath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.core.resources/.projects/Restaurant_app/.indexes/e4/81/96/d4/history.index" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterPath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.wst.server.core/publish/publish0.dat" afterPath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.wst.server.core/publish/publish0.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../.metadata/.log" afterPath="$PROJECT_DIR$/../../.metadata/.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterPath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/com/example/rest/CustomerController.java" afterPath="$PROJECT_DIR$/../src/com/example/rest/CustomerController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/com/example/dao/CustomerDAO.java" afterPath="$PROJECT_DIR$/../src/com/example/dao/CustomerDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/Restaurant_app/scripts/controllers/admin.home.ctrl.js" afterPath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/Restaurant_app/scripts/controllers/admin.home.ctrl.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/controllers/admin.home.ctrl.js" afterPath="$PROJECT_DIR$/scripts/controllers/admin.home.ctrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/Restaurant_app/partials/admin.home.tmpl.html" afterPath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/Restaurant_app/partials/admin.home.tmpl.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/admin.home.tmpl.html" afterPath="$PROJECT_DIR$/partials/admin.home.tmpl.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/Restaurant_app/scripts/controllers/cust.changeReserve.ctrl.js" afterPath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/Restaurant_app/scripts/controllers/cust.changeReserve.ctrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/controllers/cust.changeReserve.ctrl.js" afterPath="$PROJECT_DIR$/scripts/controllers/cust.changeReserve.ctrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/Restaurant_app/scripts/controllers/cust.makeReserve.ctrl.js" afterPath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/Restaurant_app/scripts/controllers/cust.makeReserve.ctrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/controllers/cust.makeReserve.ctrl.js" afterPath="$PROJECT_DIR$/scripts/controllers/cust.makeReserve.ctrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" afterPath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/logs/localhost_access_log.2015-07-05.txt" afterPath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/logs/localhost_access_log.2015-07-05.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/savedIndexNames.txt" afterPath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/savedIndexNames.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterPath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/Restaurant_app/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/Restaurant_app/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WebContent.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/scripts/controllers/admin.home.ctrl.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+              <caret line="25" column="59" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -72,8 +40,18 @@
       <file leaf-file-name="admin.home.tmpl.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/partials/admin.home.tmpl.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.5316901">
-              <caret line="58" column="59" selection-start-line="58" selection-start-column="59" selection-end-line="58" selection-end-column="59" />
+            <state vertical-scroll-proportion="0.49823943">
+              <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -87,7 +65,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/partials/cust.changeReserve.tmpl.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/partials/cust.adminLogin.tmpl.html" />
@@ -95,6 +72,7 @@
         <option value="$PROJECT_DIR$/scripts/controllers/cust.makeReserve.ctrl.js" />
         <option value="$PROJECT_DIR$/scripts/controllers/cust.changeReserve.ctrl.js" />
         <option value="$PROJECT_DIR$/scripts/controllers/admin.home.ctrl.js" />
+        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/partials/admin.home.tmpl.html" />
       </list>
     </option>
@@ -196,6 +174,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="partials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebContent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebContent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -317,13 +309,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="18" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.2631578">
@@ -390,15 +375,23 @@
     <entry file="file://$PROJECT_DIR$/scripts/controllers/admin.home.ctrl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+          <caret line="25" column="59" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/partials/admin.home.tmpl.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.5316901">
-          <caret line="58" column="59" selection-start-line="58" selection-start-column="59" selection-end-line="58" selection-end-column="59" />
+        <state vertical-scroll-proportion="0.49823943">
+          <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
           <folding />
         </state>
       </provider>
