@@ -21,7 +21,7 @@
                 //console.log("Time selected is : "+custMRCt.reserve.time);
                 $http({
                     method: 'POST',
-                    url: 'api/customer/add/',
+                    url: 'api/reservation/add/',
                     data: custMRCt.reserve
                 }).success(function (data) {
                     //console.log(data);

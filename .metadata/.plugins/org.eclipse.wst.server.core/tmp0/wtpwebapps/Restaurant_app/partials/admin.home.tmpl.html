@@ -16,6 +16,7 @@
 <!-- -----------Admin View Reservations content starts here----------- -->
 <div class="container v_container table-responsive">
     <div class="row">
+        <input text="search" placeholder="Search Reservations" ng-model="adminhmct.searchText">
         <div class="col-md-8">
             <table class="table table-striped" ng-table="tableParams">
                 <thead>
@@ -31,7 +32,7 @@
                 </tr>
                 </thead>
                 <tbody>
-                <tr ng-repeat="x in adminhmct.res | orderBy: adminhmct.sortOrder: adminhmct.sortReverse"
+                <tr ng-repeat="x in adminhmct.res | filter:adminhmct.searchText | orderBy: adminhmct.sortOrder: adminhmct.sortReverse"
                     ng-click="adminhmct.selectedres=x" class="dataFromDB">
                     <td>{{x.reservationId}}</td>
                     <td>{{x.name}}</td>

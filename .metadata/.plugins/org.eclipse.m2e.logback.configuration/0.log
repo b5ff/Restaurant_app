@@ -932,3 +932,211 @@
 2015-07-05 21:25:07,385 [Worker-617] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/main/resources
 2015-07-05 21:25:07,386 [Worker-617] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2015-07-05 21:25:07,393 [Worker-617] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/test/resources
+2015-07-05 21:33:59,404 [Worker-630] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 21:33:59,419 [Worker-630] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/main/resources
+2015-07-05 21:33:59,420 [Worker-630] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 21:33:59,420 [Worker-630] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/test/resources
+2015-07-05 21:37:31,611 [Worker-635] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 21:37:31,637 [Worker-635] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/main/resources
+2015-07-05 21:37:31,638 [Worker-635] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 21:37:31,638 [Worker-635] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/test/resources
+2015-07-05 21:39:29,852 [Worker-635] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 21:39:29,913 [Worker-635] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/main/resources
+2015-07-05 21:39:29,916 [Worker-635] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 21:39:29,917 [Worker-635] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/test/resources
+2015-07-05 21:45:34,037 [Worker-633] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 21:45:34,082 [Worker-633] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/main/resources
+2015-07-05 21:45:34,083 [Worker-633] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 21:45:34,083 [Worker-633] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/test/resources
+2015-07-05 21:47:24,720 [Worker-641] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 21:47:24,754 [Worker-641] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/main/resources
+2015-07-05 21:47:24,755 [Worker-641] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 21:47:24,755 [Worker-641] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/test/resources
+2015-07-05 21:49:43,214 [Worker-644] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 21:49:43,242 [Worker-644] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/main/resources
+2015-07-05 21:49:43,243 [Worker-644] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 21:49:43,243 [Worker-644] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/test/resources
+2015-07-05 21:52:53,748 [Worker-644] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 21:52:53,784 [Worker-644] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/main/resources
+2015-07-05 21:52:53,784 [Worker-644] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 21:52:53,785 [Worker-644] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/test/resources
+2015-07-05 21:53:05,651 [Worker-643] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 21:53:05,652 [Worker-643] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/main/resources
+2015-07-05 21:53:05,652 [Worker-643] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 21:53:05,653 [Worker-643] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/test/resources
+2015-07-05 21:53:53,599 [Worker-639] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 21:53:53,637 [Worker-639] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/main/resources
+2015-07-05 21:53:53,638 [Worker-639] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 21:53:53,638 [Worker-639] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/test/resources
+2015-07-05 21:55:08,681 [Worker-566] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 21:55:08,733 [Worker-566] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/main/resources
+2015-07-05 21:55:08,734 [Worker-566] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 21:55:08,734 [Worker-566] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/test/resources
+2015-07-05 21:57:55,538 [Worker-646] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 21:57:55,578 [Worker-646] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/main/resources
+2015-07-05 21:57:55,580 [Worker-646] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 21:57:55,580 [Worker-646] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/test/resources
+2015-07-05 21:58:54,723 [Worker-566] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 21:58:54,744 [Worker-566] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/main/resources
+2015-07-05 21:58:54,745 [Worker-566] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 21:58:54,745 [Worker-566] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/test/resources
+2015-07-05 22:03:35,571 [Worker-653] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:03:35,605 [Worker-653] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/main/resources
+2015-07-05 22:03:35,627 [Worker-653] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:03:35,628 [Worker-653] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/test/resources
+2015-07-05 22:10:55,768 [Worker-657] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:10:55,811 [Worker-657] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/main/resources
+2015-07-05 22:10:55,812 [Worker-657] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:10:55,812 [Worker-657] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/test/resources
+2015-07-05 22:11:31,608 [Worker-566] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:11:31,608 [Worker-566] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/main/resources
+2015-07-05 22:11:31,609 [Worker-566] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:11:31,637 [Worker-566] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/test/resources
+2015-07-05 22:11:38,919 [Worker-656] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:11:38,920 [Worker-656] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/main/resources
+2015-07-05 22:11:38,920 [Worker-656] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:11:38,922 [Worker-656] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/test/resources
+2015-07-05 22:11:47,355 [Worker-659] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:11:47,356 [Worker-659] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/main/resources
+2015-07-05 22:11:47,356 [Worker-659] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:11:47,358 [Worker-659] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/test/resources
+2015-07-05 22:12:58,698 [Worker-657] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:12:58,699 [Worker-657] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/main/resources
+2015-07-05 22:12:58,699 [Worker-657] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:12:58,700 [Worker-657] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/test/resources
+2015-07-05 22:13:14,736 [Worker-657] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:13:14,736 [Worker-657] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/main/resources
+2015-07-05 22:13:14,736 [Worker-657] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:13:14,738 [Worker-657] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/test/resources
+2015-07-05 22:14:21,951 [Worker-657] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:14:21,952 [Worker-657] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/main/resources
+2015-07-05 22:14:21,952 [Worker-657] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:14:21,953 [Worker-657] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/test/resources
+2015-07-05 22:14:29,960 [Worker-652] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:14:29,960 [Worker-652] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/main/resources
+2015-07-05 22:14:29,961 [Worker-652] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:14:29,961 [Worker-652] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/test/resources
+2015-07-05 22:15:40,558 [Worker-657] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:15:40,558 [Worker-657] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/main/resources
+2015-07-05 22:15:40,559 [Worker-657] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:15:40,560 [Worker-657] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/test/resources
+2015-07-05 22:15:52,019 [Worker-657] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:15:52,020 [Worker-657] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/main/resources
+2015-07-05 22:15:52,020 [Worker-657] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:15:52,021 [Worker-657] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/test/resources
+2015-07-05 22:17:36,329 [Worker-656] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:17:36,355 [Worker-656] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/main/resources
+2015-07-05 22:17:36,356 [Worker-656] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:17:36,357 [Worker-656] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/test/resources
+2015-07-05 22:17:48,130 [Worker-658] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:17:48,170 [Worker-658] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/main/resources
+2015-07-05 22:17:48,171 [Worker-658] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:17:48,172 [Worker-658] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/test/resources
+2015-07-05 22:24:00,543 [Worker-657] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:24:00,592 [Worker-657] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/main/resources
+2015-07-05 22:24:00,593 [Worker-657] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:24:00,606 [Worker-657] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/test/resources
+2015-07-05 22:24:17,582 [Worker-667] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:24:17,621 [Worker-667] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/main/resources
+2015-07-05 22:24:17,622 [Worker-667] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:24:17,622 [Worker-667] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/test/resources
+2015-07-05 22:29:44,416 [Worker-671] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:29:44,446 [Worker-671] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/main/resources
+2015-07-05 22:29:44,447 [Worker-671] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:29:44,447 [Worker-671] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/test/resources
+2015-07-05 22:30:09,183 [Worker-672] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:30:09,219 [Worker-672] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/main/resources
+2015-07-05 22:30:09,219 [Worker-672] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:30:09,227 [Worker-672] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/test/resources
+2015-07-05 22:33:10,057 [Worker-676] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:33:10,124 [Worker-676] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/main/resources
+2015-07-05 22:33:10,125 [Worker-676] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:33:10,166 [Worker-676] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/test/resources
+2015-07-05 22:33:51,512 [Worker-676] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:33:51,557 [Worker-676] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/main/resources
+2015-07-05 22:33:51,559 [Worker-676] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:33:51,559 [Worker-676] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/test/resources
+2015-07-05 22:37:47,668 [Worker-677] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:37:47,709 [Worker-677] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/main/resources
+2015-07-05 22:37:47,710 [Worker-677] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:37:47,710 [Worker-677] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/test/resources
+2015-07-05 22:38:28,749 [Worker-669] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:38:28,750 [Worker-669] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/main/resources
+2015-07-05 22:38:28,750 [Worker-669] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:38:28,751 [Worker-669] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/test/resources
+2015-07-05 22:40:59,712 [Worker-683] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:40:59,771 [Worker-683] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/main/resources
+2015-07-05 22:40:59,772 [Worker-683] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:40:59,772 [Worker-683] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/test/resources
+2015-07-05 22:42:27,412 [Worker-682] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:42:27,448 [Worker-682] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/main/resources
+2015-07-05 22:42:27,449 [Worker-682] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:42:27,449 [Worker-682] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/test/resources
+2015-07-05 22:43:24,682 [Worker-669] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:43:24,705 [Worker-669] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/main/resources
+2015-07-05 22:43:24,706 [Worker-669] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:43:24,706 [Worker-669] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/test/resources
+2015-07-05 22:45:29,583 [Worker-680] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:45:29,615 [Worker-680] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/main/resources
+2015-07-05 22:45:29,615 [Worker-680] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:45:29,616 [Worker-680] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/test/resources
+2015-07-05 22:45:37,079 [Worker-684] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:45:37,107 [Worker-684] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/main/resources
+2015-07-05 22:45:37,107 [Worker-684] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:45:37,108 [Worker-684] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/test/resources
+2015-07-05 22:45:57,299 [Worker-687] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:45:57,328 [Worker-687] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/main/resources
+2015-07-05 22:45:57,329 [Worker-687] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:45:57,329 [Worker-687] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/test/resources
+2015-07-05 22:46:40,536 [Worker-684] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:46:40,536 [Worker-684] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/main/resources
+2015-07-05 22:46:40,536 [Worker-684] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:46:40,538 [Worker-684] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/test/resources
+2015-07-05 22:47:00,445 [Worker-682] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:47:00,446 [Worker-682] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/main/resources
+2015-07-05 22:47:00,446 [Worker-682] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:47:00,447 [Worker-682] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/test/resources
+2015-07-05 22:47:18,074 [Worker-682] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:47:18,075 [Worker-682] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/main/resources
+2015-07-05 22:47:18,075 [Worker-682] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:47:18,076 [Worker-682] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/test/resources
+2015-07-05 22:48:37,051 [Worker-687] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:48:37,096 [Worker-687] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/main/resources
+2015-07-05 22:48:37,096 [Worker-687] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:48:37,097 [Worker-687] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/test/resources
+2015-07-05 22:50:19,496 [Worker-682] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:50:19,528 [Worker-682] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/main/resources
+2015-07-05 22:50:19,540 [Worker-682] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:50:19,540 [Worker-682] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/test/resources
+2015-07-05 22:56:33,947 [Worker-687] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:56:34,003 [Worker-687] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/main/resources
+2015-07-05 22:56:34,005 [Worker-687] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:56:34,036 [Worker-687] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/test/resources
+2015-07-05 22:56:52,341 [Worker-695] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:56:52,385 [Worker-695] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/main/resources
+2015-07-05 22:56:52,386 [Worker-695] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 22:56:52,386 [Worker-695] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/test/resources
+2015-07-05 23:14:49,376 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: Restaurant_app:Restaurant_app:0.0.1-SNAPSHOT @ /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/pom.xml.
+2015-07-05 23:14:54,078 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 23:14:54,117 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/main/resources
+2015-07-05 23:14:54,397 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 23:14:54,398 [Worker-17] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: Restaurant_app:Restaurant_app:0.0.1-SNAPSHOT @ /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/pom.xml.
+2015-07-05 23:14:54,398 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/test/resources
+2015-07-05 23:14:56,468 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 23:14:56,469 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/main/resources
+2015-07-05 23:14:56,470 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 23:14:56,471 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/test/resources
+2015-07-05 23:18:35,157 [Worker-0] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2015-07-05 23:18:39,126 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: Restaurant_app:Restaurant_app:0.0.1-SNAPSHOT @ /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/pom.xml.
+2015-07-05 23:18:42,357 [Worker-0] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Restaurant_app/src
+2015-07-05 23:18:42,383 [Worker-0] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /Restaurant_app/src/test/java because it overlaps with /Restaurant_app/src
+2015-07-05 23:18:44,379 [Worker-0] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for Restaurant_app
+2015-07-05 23:18:44,420 [Worker-0] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 9 sec
+2015-07-05 23:18:46,560 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 23:18:46,576 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/main/resources
+2015-07-05 23:18:46,578 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-05 23:18:46,580 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/test/resources
+2015-07-05 23:18:46,580 [Worker-16] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Restaurant_app
+2015-07-05 23:18:46,581 [Worker-16] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Restaurant_app
+2015-07-05 23:18:46,613 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-clean-plugin:jar:2.5 is missing, no dependency information available
+2015-07-05 23:18:46,694 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!

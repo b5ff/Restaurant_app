@@ -54,7 +54,7 @@ public class CustomerDAO {
 		ResultSet rs = null;
 
 		try {
-			ps = con.prepareStatement("SELECT * FROM CUSTOMERS WHERE RESERVATIONID = ?");
+			ps = con.prepareStatement("SELECT * FROM CUSTOMERS WHERE RESERVATIONID = ? order by RESERVATIONID asc");
 			ps.setInt(1, custid);
 			rs = ps.executeQuery();
 
@@ -101,7 +101,7 @@ public class CustomerDAO {
 
 			if (rs.next()) {
 				cust.setReservationId(rs.getInt(1));
-			} 
+			}
 		} catch (SQLException e) {
 			e.printStackTrace();
 			throw new AppException("Error in creating new reservation" + e.getCause());
@@ -110,5 +110,36 @@ public class CustomerDAO {
 		}
 
 		return cust;
+	}
+
+	public Customer deleteCustomerReservation(int id) throws AppException {
+		Customer cust = new Customer();
+
+		Connection con = DBUtils.connectToDB();
+		PreparedStatement ps = null;
+		ResultSet rs = null;
+
+		try {
+			ps = con.prepareStatement("DELETE FROM CUSTOMERS WHERE RESERVATIONID = ?");
+			ps.setInt(1, id);
+			ps.executeUpdate();
+		} catch (SQLException e) {
+			e.printStackTrace();
+			throw new AppException("Error in Deleting record from Database ");
+		} finally {
+			DBUtils.closeResources(rs, ps, con);
+		}
+
+		return cust;
+	}
+
+	public static void main(String[] args) {
+		// CustomerDAO da = new CustomerDAO();
+		// try {
+		// da.deleteCustomerReservation(1007);
+		// } catch (AppException e) {
+		// // TODO Auto-generated catch block
+		// e.printStackTrace();
+		// }
 	}
 }

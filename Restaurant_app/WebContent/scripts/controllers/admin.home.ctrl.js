@@ -13,7 +13,7 @@
         console.log("Admin Home Controller");
         $http({
             method: 'GET',
-            url: 'api/customer/all'
+            url: 'api/reservation/all'
         }).success(function(data) {
                 adminhmct.dataFromDB = data;
                 adminhmct.res = adminhmct.dataFromDB.payload;//Storing payload in 'res'
@@ -26,9 +26,20 @@
         adminhmct.updateRecords = function(id){//Do the update logic here
             console.log("Reservation ID retrieved = "+id);
 
+
         }
         adminhmct.deleteRecords= function(id){ //Do the delete logic here
             console.log("ID retrived is : "+id);
+
+            $http({
+                method: 'GET',
+                url: 'api/reservation/delete/'+id
+            }).success(function(data) {
+                console.log(data);
+            })
+                .error(function(error) {
+                    console.log(error);
+                });
 
         }
     }

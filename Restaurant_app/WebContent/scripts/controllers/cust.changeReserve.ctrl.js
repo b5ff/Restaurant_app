@@ -20,7 +20,7 @@
 
                 $http({
                     method: 'GET',
-                    url: 'api/customer/get/'+custCr.confirmationNumber
+                    url: 'api/reservation/get/'+custCr.confirmationNumber
                 }).success(function(data){
                     custCr.dataFromDB = data;
                     custCr.res = custCr.dataFromDB.payload;
