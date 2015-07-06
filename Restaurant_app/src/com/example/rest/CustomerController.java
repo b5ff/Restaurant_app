@@ -74,6 +74,26 @@ public class CustomerController {
 		return appresp;
 	}
 	
+	@POST
+	@Path("/update")
+	@Produces(MediaType.APPLICATION_JSON)
+	@Consumes(MediaType.APPLICATION_JSON)
+	public AppResponse updateCustomerReservation(Customer cust) {
+		AppResponse appresp = new AppResponse();
+
+		try {
+			CustomerDAO dao = new CustomerDAO();
+			cust = dao.updateCustomerReservation(cust);
+			appresp.setMessage("Reservation updated");
+			appresp.setPayload(cust);
+		} catch (AppException e) {
+			e.printStackTrace();
+			appresp.setStatus(AppResponse.ERROR);
+			appresp.setMessage(e.getMessage());
+		}
+		return appresp;
+	}
+	
 	@GET
 	@Path("/delete/{id}")
 	@Produces(MediaType.APPLICATION_JSON)

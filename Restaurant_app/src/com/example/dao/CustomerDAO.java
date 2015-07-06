@@ -112,6 +112,40 @@ public class CustomerDAO {
 		return cust;
 	}
 
+	public Customer updateCustomerReservation(Customer cust) throws AppException {
+		// Customer cust = new Customer();
+
+		Connection con = DBUtils.connectToDB();
+		PreparedStatement ps = null;
+		ResultSet rs = null;
+
+		try {
+			ps = con.prepareStatement(
+					"UPDATE CUSTOMERS SET NAME = ?, EMAIL = ?, PHONE = ?, DATE = ?, TIME = ?, PARTYSIZE = ?"
+							+ " WHERE RESERVATIONID = ?");
+			ps.setString(1, cust.getName());
+			ps.setString(2, cust.getEmail());
+			ps.setString(3, cust.getPhone());
+			ps.setString(4, cust.getDate());
+			ps.setString(5, cust.getTime());
+			ps.setInt(6, cust.getPartySize());
+			ps.setInt(7, cust.getReservationId());
+			ps.executeUpdate();
+			// rs = ps.getGeneratedKeys();
+			//
+			// if (rs.next()) {
+			// cust.setReservationId(rs.getInt(1));
+			// }
+		} catch (SQLException e) {
+			e.printStackTrace();
+			throw new AppException("Error in creating new reservation" + e.getCause());
+		} finally {
+			DBUtils.closeResources(rs, ps, con);
+		}
+
+		return cust;
+	}
+
 	public Customer deleteCustomerReservation(int id) throws AppException {
 		Customer cust = new Customer();
 

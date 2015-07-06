@@ -46,6 +46,11 @@
                 controller:'AdminSettingsController',
                 controllerAs:'adminst'
             })
+            .when('/updateRecord/:reservationId/:name/:email/:phone/:date/:time/:partySize',{
+                templateUrl:'partials/admin.updateReserve.tmpl.html',
+                controller:'UpdateRecordController',
+                controllerAs:'updRec'
+            })
             .otherwise({
                 redirectTo:'/'
             });

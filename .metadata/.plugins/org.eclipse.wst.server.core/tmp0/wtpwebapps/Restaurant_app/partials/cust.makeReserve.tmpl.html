@@ -47,7 +47,7 @@
             <input type="number" name="phone" class="form-control" ng-pattern="/^[0-9]{10}$/" id="Phone"
                    placeholder="Phone Number" ng-model="custMRCt.reserve.phone" required>
 
-            <div ng-messages="makeReservationForm.phone.$error" ng-if="makeReservationForm.phone.$error">
+            <div ng-messages="makeReservationForm.phone.$error" ng-if="makeReservationForm.phone.$dirty">
                 <!--<p ng-message="required" class="v-form-error">Phone is required</p>-->
                 <p ng-message="pattern" class="v-form-error">Phone number should have exactly 10 characters</p>
 
@@ -60,7 +60,7 @@
                 <input type="date" name="date" class="form-control" id="Date" placeholder="Date"
                        ng-model="custMRCt.reserve.date">
 
-                <div ng-messages="makeReservationForm.date.$error" ng-if="makeReservationForm.date.$error">
+                <div ng-messages="makeReservationForm.date.$error" ng-if="makeReservationForm.date.$dirty">
                     <!--<p ng-message="required" class="v-form-error">Data and time is required</p>-->
                     <!--<p ng-message="step" class="v-form-error">Should have 30 minutes step</p>-->
                 </div>
@@ -84,7 +84,7 @@
                 <input type="number" class="form-control" name="partySize" id="partySize" placeholder="Number of people"
                        min="1" max="20" ng-model="custMRCt.reserve.partySize" required>
 
-                <div ng-messages="makeReservationForm.partySize.$error" ng-if="makeReservationForm.partySize.$error">
+                <div ng-messages="makeReservationForm.partySize.$error" ng-if="makeReservationForm.partySize.$dirty">
                     <p ng-message="min" class="v-form-error">Number of people should be atleast 1</p>
 
                     <p ng-message="max" class="v-form-error">Number of people cannot be greater than 20</p>

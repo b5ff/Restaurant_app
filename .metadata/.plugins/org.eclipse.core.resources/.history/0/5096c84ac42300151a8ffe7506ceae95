@@ -1,0 +1,145 @@
+package com.example.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+import com.example.exceptions.AppException;
+import com.example.model.Customer;
+import com.example.utils.DBUtils;
+
+public class CustomerDAO {
+
+	public List<Customer> getAll() throws AppException {
+		List<Customer> custList = new ArrayList<Customer>();
+
+		Connection con = DBUtils.connectToDB();
+		PreparedStatement ps = null;
+		ResultSet rs = null;
+
+		try {
+			ps = con.prepareStatement("SELECT * FROM CUSTOMERS");
+			rs = ps.executeQuery();
+
+			while (rs.next()) {
+				Customer cust = new Customer();
+				cust.setReservationId(rs.getInt("RESERVATIONID"));
+				cust.setName(rs.getString("NAME"));
+				cust.setEmail(rs.getString("EMAIL"));
+				cust.setPhone(rs.getString("PHONE"));
+				cust.setDate(rs.getString("DATE"));
+				cust.setTime(rs.getString("TIME"));
+				cust.setPartySize(rs.getInt("PARTYSIZE"));
+
+				custList.add(cust);
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+			throw new AppException("Error in fetching data from Database ");
+		} finally {
+			DBUtils.closeResources(rs, ps, con);
+		}
+
+		return custList;
+	}
+
+	public Customer getCustomer(int custid) throws AppException {
+		Customer cust = new Customer();
+
+		Connection con = DBUtils.connectToDB();
+		PreparedStatement ps = null;
+		ResultSet rs = null;
+
+		try {
+			ps = con.prepareStatement("SELECT * FROM CUSTOMERS WHERE RESERVATIONID = ? order by RESERVATIONID asc");
+			ps.setInt(1, custid);
+			rs = ps.executeQuery();
+
+			if (rs.next()) {
+				cust.setReservationId(rs.getInt("RESERVATIONID"));
+				cust.setName(rs.getString("NAME"));
+				cust.setEmail(rs.getString("EMAIL"));
+				cust.setPhone(rs.getString("PHONE"));
+				cust.setDate(rs.getString("DATE"));
+				cust.setTime(rs.getString("TIME"));
+				cust.setPartySize(rs.getInt("PARTYSIZE"));
+			} else {
+				throw new AppException("Records with ReservationId: " + custid + " doesn't exist in database");
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+			throw new AppException("Error in fetching data from Database " + e.getCause());
+		} finally {
+			DBUtils.closeResources(rs, ps, con);
+		}
+
+		return cust;
+	}
+
+	public Customer addCustomer(Customer cust) throws AppException {
+		// Customer cust = new Customer();
+
+		Connection con = DBUtils.connectToDB();
+		PreparedStatement ps = null;
+		ResultSet rs = null;
+
+		try {
+			ps = con.prepareStatement(
+					"INSERT INTO CUSTOMERS (NAME, EMAIL, PHONE, DATE, TIME, PARTYSIZE) VALUES (?, ?, ?, ?, ?, ?)",
+					PreparedStatement.RETURN_GENERATED_KEYS);
+			ps.setString(1, cust.getName());
+			ps.setString(2, cust.getEmail());
+			ps.setString(3, cust.getPhone());
+			ps.setString(4, cust.getDate());
+			ps.setString(5, cust.getTime());
+			ps.setInt(6, cust.getPartySize());
+			ps.executeUpdate();
+			rs = ps.getGeneratedKeys();
+
+			if (rs.next()) {
+				cust.setReservationId(rs.getInt(1));
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+			throw new AppException("Error in creating new reservation" + e.getCause());
+		} finally {
+			DBUtils.closeResources(rs, ps, con);
+		}
+
+		return cust;
+	}
+
+	public Customer deleteCustomerReservation(int id) throws AppException {
+		Customer cust = new Customer();
+
+		Connection con = DBUtils.connectToDB();
+		PreparedStatement ps = null;
+		ResultSet rs = null;
+
+		try {
+			ps = con.prepareStatement("DELETE FROM CUSTOMERS WHERE RESERVATIONID = ?");
+			ps.setInt(1, id);
+			ps.executeUpdate();
+		} catch (SQLException e) {
+			e.printStackTrace();
+			throw new AppException("Error in Deleting record from Database ");
+		} finally {
+			DBUtils.closeResources(rs, ps, con);
+		}
+
+		return cust;
+	}
+
+	public static void main(String[] args) {
+		// CustomerDAO da = new CustomerDAO();
+		// try {
+		// da.deleteCustomerReservation(1007);
+		// } catch (AppException e) {
+		// // TODO Auto-generated catch block
+		// e.printStackTrace();
+		// }
+	}
+}

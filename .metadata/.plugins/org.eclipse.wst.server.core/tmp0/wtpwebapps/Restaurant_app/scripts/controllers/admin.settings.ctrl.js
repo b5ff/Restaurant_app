@@ -6,16 +6,16 @@
 
     angular.module('myApp').controller('AdminSettingsController',AdminSettingsCntrlFn);
 
-    AdminSettingsCntrlFn.$inject = ['$rootScope'];
-    function AdminSettingsCntrlFn($rootScope){
+    AdminSettingsCntrlFn.$inject = [];
+    function AdminSettingsCntrlFn(){
         var adminst = this;
 
-
         console.log("Admin Settings Controller");
-        adminst.appSettings = function(){
-            console.log("In the App Settings function");
-
-
+        adminst.appSettings = function(isValid){
+            if(isValid){
+                console.log("In the App Settings function");
+                console.log(adminst.settings);
+            }
         }
     }
 })();

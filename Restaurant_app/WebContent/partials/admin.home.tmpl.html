@@ -40,8 +40,13 @@
                     <td>{{x.name}}</td>
                     <td>{{x.date}}</td>
                     <td>{{x.time}}</td>
-                    <td><span class="glyphicon glyphicon-edit"
-                              ng-click="adminhmct.updateRecords(x.reservationId)"></span></td>
+                    <td ng-hide="true">{{x.email}}</td>
+                    <td ng-hide="true">{{x.phone}}</td>
+                    <td ng-hide="true">{{x.partySize}}</td>
+                    <td>
+                        <a ng-href="#/updateRecord/{{x.reservationId}}/{{x.name}}/{{x.email}}/{{x.phone}}/{{x.date}}/{{x.time}}/{{x.partySize}}">
+                            <span
+                                class="glyphicon glyphicon-edit"></span></a></td>
                     <td><span class="glyphicon glyphicon-trash"
                               ng-click="adminhmct.deleteRecords(x.reservationId)"></span></td>
                 </tr>
@@ -51,6 +56,7 @@
         <div class="col-lg-4">
             <div ng-show="adminhmct.selectedres">
                 <br><br>
+
                 <h3>Details:</h3>
 
                 <p>Name: {{adminhmct.selectedres.name}}</p>

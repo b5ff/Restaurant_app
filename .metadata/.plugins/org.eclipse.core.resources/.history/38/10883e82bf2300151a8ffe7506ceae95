@@ -1,0 +1,26 @@
+/**
+ * Created by vikasboinpally on 7/6/15.
+ */
+(function(){
+    'use strict';
+
+    angular.module('myApp').controller('UpdateRecordController',UpdateRecordCntrlFn);
+
+    UpdateRecordCntrlFn.$inject = ['$rootScope','$routeParams'];
+    function UpdateRecordCntrlFn($rootScope,$routeParams){
+        var updRec = this;
+        console.log("Admin Update Record Controller");
+        //console.log($routeParams);
+        updRec.reserve= $routeParams;
+        //console.log(updRec.rs);
+        //console.log("id is : "+updRec.rs.reservationId);
+
+        upRec.updateReservation = function(isValid){
+            if(isValid){
+                console.log("Inside Update Reservation Function");
+                console.log(updRec.reserve);
+            }
+
+        }
+    }
+})();

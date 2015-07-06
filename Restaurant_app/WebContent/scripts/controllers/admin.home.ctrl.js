@@ -6,8 +6,8 @@
 
     angular.module('myApp').controller('AdminHomeController',AdminHomeContrlFn);
 
-    AdminHomeContrlFn.$inject = ['$rootScope','$http','$route'];
-    function AdminHomeContrlFn($rootScope,$http,$route){
+    AdminHomeContrlFn.$inject = ['$rootScope','$http','$route','$location'];
+    function AdminHomeContrlFn($rootScope,$http,$route,$location){
         var adminhmct = this;
 
         console.log("Admin Home Controller");
@@ -40,7 +40,7 @@
 
         adminhmct.updateRecords = function(id){//Do the update logic here
             console.log("Reservation ID retrieved = "+id);
-            $location.path('/upadeRecord');
+            $location.path('/updateRecord');
 
         }
 

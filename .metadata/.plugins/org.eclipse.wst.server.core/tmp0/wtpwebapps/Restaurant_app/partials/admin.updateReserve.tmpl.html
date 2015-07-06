@@ -1,0 +1,112 @@
+<!-- ---------------Usermenu starts here------------- -->
+<div class="container usermenu">
+    <div class="btn-group btn-group-justified" role="group" aria-label="...">
+        <div class="btn-group" role="group">
+            <button type="button" class="btn btn-default" onclick="window.location='#/adminHome'">View Reservations
+            </button>
+        </div>
+        <div class="btn-group" role="group">
+            <button type="button" class="btn btn-default" onclick="window.location='#/adminSettings'">App Settings
+            </button>
+        </div>
+    </div>
+</div>
+<!-- ------------Usermenu ends here----------------- -->
+<!-- ---------------Update RESERVATION Form container starts here--------------- -->
+<div class="container v_container">
+
+    <h3>Update Reservation</h3>
+
+    <form style="padding: 20px;" novalidate name="updateReservationForm"
+          ng-submit="updRec.updateReservation(updateReservationForm.$valid)">
+        <div class="form-group">
+            <label for="Name">Name</label>
+            <input type="text" class="form-control" minlength="5" id="Name" placeholder="Name" name="name"
+                   ng-model="updRec.reserve.name" value="{{updRec.reserve.name}}" required>
+
+            <div ng-messages="updateReservationForm.name.$error" ng-if="updateReservationForm.name.$dirty">
+                <!--<p ng-message="required" class="v-form-error">Name is required</p>-->
+                <p ng-message="minlength" class="v-form-error">Name should have atleast 5 characters</p>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="Email">Email</label>
+            <input type="text" class="form-control" id="Email" name="email" placeholder="Email Address"
+                   ng-model="updRec.reserve.email" value="{{updRec.reserve.email}}" required>
+
+            <div ng-messages="updateReservationForm.email.$error" ng-if="updateReservationForm.email.$dirty">
+                <!--<p ng-message="required" class="v-form-error">Email is required</p>-->
+                <!--<p ng-message="email" class="v-form-error">Email is invalid</p>-->
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="Phone">Phone</label>
+            <input type="text" name="phone" class="form-control" id="Phone"
+                   placeholder="Phone Number" ng-model="updRec.reserve.phone" required>
+
+            <div ng-messages="updateReservationForm.phone.$error" ng-if="updateReservationForm.phone.$dirty">
+                <!--<p ng-message="required" class="v-form-error">Phone is required</p>-->
+                <!--<p ng-message="pattern" class="v-form-error">Phone number should have exactly 10 characters</p>-->
+
+                <!--<p ng-message="number" class="v-form-error">Phone number invalid</p>-->
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group col-md-6">
+                <label for="Date">Date</label>
+                <input type="text" name="date" class="form-control" id="Date" placeholder="Date"
+                       ng-model="updRec.reserve.date">
+
+                <div ng-messages="updateReservationForm.date.$error" ng-if="updateReservationForm.date.$dirty">
+                    <!--<p ng-message="required" class="v-form-error">Data and time is required</p>-->
+                    <!--<p ng-message="step" class="v-form-error">Should have 30 minutes step</p>-->
+                </div>
+            </div>
+            <div class="form-group col-md-6">
+                <label for="Time">Time</label>
+                <select name="time" ng-model="updRec.reserve.time" class="form-control" id="Time" required>
+                    <option value="10AM">10AM</option>
+                    <option value="11AM">11AM</option>
+                    <option value="12PM">12PM</option>
+                    <option value="1PM">1PM</option>
+                    <option value="2PM">2PM</option>
+                    <option value="3PM">3PM</option>
+                    <option value="4PM">4PM</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group col-md-6">
+                <label for="partySize">Party Size</label>
+                <input type="text" class="form-control" name="partySize" id="partySize"
+                       placeholder="Number of people"
+                       min="1" max="20" ng-model="updRec.reserve.partySize" required>
+
+                <div ng-messages="updateReservationForm.partySize.$error"
+                     ng-if="updateReservationForm.partySize.$dirty">
+                    <!--<p ng-message="min" class="v-form-error">Number of people should be atleast 1</p>-->
+
+                    <!--<p ng-message="max" class="v-form-error">Number of people cannot be greater than 20</p>-->
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="form-group col-md-6">
+                <button type="submit" class="btn btn-default">Submit</button>
+            </div>
+            <div class="form-group col-md-6" ng-show="updRec.updatedReservation.show" style="color: red;"><p>Record
+                Updated</p></div>
+        </div>
+
+    </form>
+</div>
+<!--<div class="container v_container" ng-show="updRec.updatedReservation.show">-->
+<!--<div style="padding: 20px;">-->
+<!--<p>-->
+<!--Reservation updated.<br>-->
+<!--</p>-->
+<!--</div>-->
+<!--</div>-->
+<!--Update RESERVATION Form container ends here-->
+
