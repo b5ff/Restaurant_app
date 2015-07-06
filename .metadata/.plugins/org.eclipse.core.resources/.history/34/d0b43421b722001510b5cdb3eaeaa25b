@@ -1,0 +1,80 @@
+package com.example.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+import com.example.exceptions.AppException;
+import com.example.model.Customer;
+import com.example.utils.DBUtils;
+
+public class CustomerDAO {
+
+	public List<Customer> getAll() throws AppException {
+		List<Customer> custList = new ArrayList<Customer>();
+
+		Connection con = DBUtils.connectToDB();
+		PreparedStatement ps = null;
+		ResultSet rs = null;
+
+		try {
+			ps = con.prepareStatement("SELECT * FROM CUSTOMERS");
+			rs = ps.executeQuery();
+
+			while (rs.next()) {
+				Customer cust = new Customer();
+				cust.setReservationId(rs.getInt("RESERVATIONID"));
+				cust.setName(rs.getString("NAME"));
+				cust.setEmail(rs.getString("EMAIL"));
+				cust.setPhone(rs.getString("PHONE"));
+				cust.setDate(rs.getString("DATE"));
+				cust.setTime(rs.getString("TIME"));
+				cust.setPartySize(rs.getInt("PARTYSIZE"));
+
+				custList.add(cust);
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+			throw new AppException("Error in fetching data from Database "+e.getCause());
+		} finally {
+			DBUtils.closeResources(rs, ps, con);
+		}
+
+		return custList;
+	}
+	
+	public Customer getCustomer(int custid) throws AppException {
+		Customer cust = new Customer();
+
+		Connection con = DBUtils.connectToDB();
+		PreparedStatement ps = null;
+		ResultSet rs = null;
+
+		try {
+			ps = con.prepareStatement("SELECT * FROM CUSTOMERS WHERE RESERVATIONID = ?");
+			ps.setInt(1, custid);
+			rs = ps.executeQuery();
+
+			if (rs.next()) {
+				cust.setReservationId(rs.getInt("RESERVATIONID"));
+				cust.setName(rs.getString("NAME"));
+				cust.setEmail(rs.getString("EMAIL"));
+				cust.setPhone(rs.getString("PHONE"));
+				cust.setDate(rs.getString("DATE"));
+				cust.setTime(rs.getString("TIME"));
+				cust.setPartySize(rs.getInt("PARTYSIZE"));
+
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+			throw new AppException("Error in fetching data from Database "+e.getCause());
+		} finally {
+			DBUtils.closeResources(rs, ps, con);
+		}
+
+		return cust;
+	}
+}

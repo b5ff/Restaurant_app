@@ -1,0 +1,24 @@
+package com.example.rest;
+
+import java.util.List;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+
+import com.example.dao.CustomerDAO;
+import com.example.model.Customer;
+
+@Path("/customer")
+public class CustomerController {
+
+	@GET
+	@Path("/all")
+	public List<Customer> getAll(){
+		
+		CustomerDAO dao = new CustomerDAO();
+		List<Customer> custList = dao.getAll();
+		
+		
+		return custList;
+	}
+}

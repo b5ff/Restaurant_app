@@ -1,0 +1,12 @@
+package com.example.rest;
+
+import javax.ws.rs.Path;
+
+@Path("/customer")
+public class CustomerController {
+
+	@Path("/all")
+	public String getAll(){
+		return "vikas";
+	}
+}

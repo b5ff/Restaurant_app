@@ -1,0 +1,38 @@
+<!-- ---------------Usermenu starts here------------- -->
+<div class="container usermenu">
+    <div class="btn-group btn-group-justified" role="group" aria-label="...">
+        <div class="btn-group" role="group">
+            <button type="button" class="btn btn-default" onclick="window.location='#/makeReservation'">Make a
+                Reservation
+            </button>
+        </div>
+        <div class="btn-group" role="group">
+            <button type="button" class="btn btn-default" onclick="window.location='#/changeReservation'">View
+                Existing Reservation
+            </button>
+        </div>
+        <div class="btn-group" role="group">
+            <button type="button" class="btn btn-default" onclick="window.location='#/adminLogin'">Admin Login
+            </button>
+        </div>
+    </div>
+</div>
+<!-- ------------Usermenu ends here----------------- -->
+<div class="container v_container">
+    <form style="padding: 20px;" novalidate name="AdminVerifyForm"
+          ng-submit="adminAuth(AdminVerifyForm.$valid)">
+        <div class="form-group">
+            <label for="UserName">User Name</label>
+            <input type="text" class="form-control" id="UserName" placeholder="username"
+                   name="adminUserName" ng-model="custAL.auth.userName" required>
+        </div>
+        <div class="form-group">
+            <label for="Paswword">User Name</label>
+            <input type="password" class="form-control" id="Paswword" placeholder="password"
+                   name="adminpassword" ng-model="custAL.auth.password" required>
+        </div>
+        <div class="text-center">
+            <button type="submit" class="btn btn-default">Submit</button>
+        </div>
+    </form>
+</div>

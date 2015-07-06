@@ -1,0 +1,65 @@
+<!-- ---------------Usermenu starts here------------- -->
+<div class="container usermenu">
+    <div class="btn-group btn-group-justified" role="group" aria-label="...">
+        <div class="btn-group" role="group">
+            <button type="button" class="btn btn-default" onclick="window.location='#/makeReservation'">Make a
+                Reservation
+            </button>
+        </div>
+        <div class="btn-group" role="group">
+            <button type="button" class="btn btn-default" onclick="window.location='#/changeReservation'">View
+                Existing Reservation
+            </button>
+        </div>
+        <div class="btn-group" role="group">
+            <button type="button" class="btn btn-default" onclick="window.location='#/adminLogin'">Admin Login
+            </button>
+        </div>
+    </div>
+</div>
+<!-- ------------Usermenu ends here----------------- -->
+<!--CHANGE EXISTING RESERVATION container starts here-->
+<div class="container v_container">
+    <form style="padding: 20px;" novalidate name="ChangeReservationForm"
+          ng-submit="custCr.changeReservation(ChangeReservationForm.$valid)">
+        <div class="form-group">
+            <label for="confirmationNumber">Enter Confirmation Number</label>
+            <input type="number" class="form-control" id="confirmationNumber" placeholder="Confirmation Number"
+                   ng-pattern="/^[0-9]{4}$/" name="confirmationNumber" ng-model="custCr.confirmationNumber" required>
+
+            <div ng-messages="ChangeReservationForm.confirmationNumber.$error"
+                 ng-if="ChangeReservationForm.confirmationNumber.$dirty">
+                <p ng-message="number" class="v-form-error">Field should contain only numbers</p>
+
+                <p ng-message="pattern" class="v-form-error">Should be exactly 4 characters</p>
+            </div>
+        </div>
+        <div class="text-center">
+            <button type="submit" class="btn btn-default">Submit</button>
+        </div>
+    </form>
+</div>
+<!--ng-show="custCr.confirmButtonClicked"-->
+<div class="container v_container" ng-show="custCr.res">
+   <div style="padding: 20px;">
+       <h4>Reservation Details:</h4>
+       <p>
+           <!--{{custCr.msg}}-->
+           Confirmation Number:{{custCr.res.reservationId}} <br>
+           Name: {{custCr.res.name}} <br>
+           Email: {{custCr.res.email}}<br>
+           Date: {{custCr.res.date}}<br>
+           Time: {{custCr.res.time}}<br>
+           Party Size: {{custCr.res.partySize}}
+       </p>
+   </div>
+</div>
+<div class="container v_container" ng-show="custCr.msg">
+    <div style="padding: 20px;">
+        <p style="color: red;">
+            {{custCr.msg}}
+        </p>
+    </div>
+</div>
+
+<!--CHANGE EXISTING RESERVATION container ends here-->

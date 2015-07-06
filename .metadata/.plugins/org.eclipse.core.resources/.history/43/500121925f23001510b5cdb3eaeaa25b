@@ -1,0 +1,58 @@
+<!-- ---------------Usermenu starts here------------- -->
+<div class="container usermenu">
+    <div class="btn-group btn-group-justified" role="group" aria-label="...">
+        <div class="btn-group" role="group">
+            <button type="button" class="btn btn-default" onclick="window.location='#/adminHome'">View Reservations
+            </button>
+        </div>
+        <div class="btn-group" role="group">
+            <button type="button" class="btn btn-default" onclick="window.location='#/adminSettings'">App Settings
+            </button>
+        </div>
+    </div>
+</div>
+<!-- ------------Usermenu ends here----------------- -->
+
+<!-- -----------Admin View Reservations content starts here----------- -->
+<div class="container v_container table-responsive">
+    <div class="row">
+        <div class="col-md-8">
+            <table class="table table-striped" ng-table="tableParams">
+                <thead>
+                <tr class="dataFromDBTableHeader" alt="click to sort header">
+                    <th ng-click="adminhmct.sortOrder='reservationId';adminhmct.sortReverse = !adminhmct.sortReverse;">
+                        ReservationID
+                    </th>
+                    <th ng-click="adminhmct.sortOrder='name';adminhmct.sortReverse = !adminhmct.sortReverse;">Name</th>
+                    <th ng-click="adminhmct.sortOrder='date';adminhmct.sortReverse = !adminhmct.sortReverse;">Date</th>
+                    <th ng-click="adminhmct.sortOrder='time';adminhmct.sortReverse = !adminhmct.sortReverse;">Time</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr ng-repeat="x in adminhmct.res | orderBy: adminhmct.sortOrder: adminhmct.sortReverse"
+                    ng-click="adminhmct.selectedres=x" class="dataFromDB"
+                    style="text-align: center;">
+                    <td>{{x.reservationId}}</td>
+                    <td>{{x.name}}</td>
+                    <td>{{x.date}}</td>
+                    <td>{{x.time}}</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-lg-4">
+            <div ng-show="adminhmct.selectedres">
+                <h3>Details:</h3>
+
+                <p>Name: {{adminhmct.selectedres.name}}</p>
+
+                <p>Email: {{adminhmct.selectedres.email}}<br>
+                    Phone: {{adminhmct.selectedres.phone}}<br>
+                    Date: {{adminhmct.selectedres.date}}<br>
+                    Time: {{adminhmct.selectedres.time}}<br>
+                    Party Size: {{adminhmct.selectedres.partySize}}<br></p>
+            </div>
+        </div>
+    </div>
+
+</div>

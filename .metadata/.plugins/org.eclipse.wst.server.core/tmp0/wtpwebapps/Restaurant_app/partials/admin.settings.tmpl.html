@@ -1,0 +1,30 @@
+<!-- ---------------Usermenu starts here------------- -->
+<div class="container usermenu">
+    <div class="btn-group btn-group-justified" role="group" aria-label="...">
+        <div class="btn-group" role="group">
+            <button type="button" class="btn btn-default" onclick="window.location='#/adminHome'">View Reservations
+            </button>
+        </div>
+        <div class="btn-group" role="group">
+            <button type="button" class="btn btn-default" onclick="window.location='#/adminSettings'">App Settings
+            </button>
+        </div>
+    </div>
+</div>
+<!-- ------------Usermenu ends here----------------- -->
+
+<!-- -----------Admin View Reservations content starts here----------- -->
+<div class="container v_container">
+    <h4 style="padding: 20px 0 0 20px;">Website Settings</h4>
+    <form style="padding: 20px;" novalidate name="WebsiteSettingsForm"
+          ng-submit="adminst.appSettings()">
+        <div class="form-group">
+            <label for="WebsiteName">Website Name:</label>
+            <input type="text" class="form-control" id="WebsiteName" placeholder="Website Name"
+                    name="WebsiteName" ng-model="adminst.websiteName" required>
+        </div>
+        <div class="text-center">
+            <button type="submit" class="btn btn-default">Submit</button>
+        </div>
+    </form>
+</div>

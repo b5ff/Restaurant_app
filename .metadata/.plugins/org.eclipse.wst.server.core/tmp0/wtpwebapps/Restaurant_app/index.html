@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <title>Reserve Table</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/lib/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+
+</head>
+<body>
+<!-----------header starts here-------------------->
+<nav class="navbar navbar-inverse">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#/home">Reserve Table</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#/">Home</a></li>
+                <li><a href="#/contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!----------------header ends here------------------>
+
+
+<!--This is the view. we switch templates in this div-->
+
+<div ng-view></div>
+
+
+
+
+<script src="scripts/lib/angular.js"></script>
+<script src="scripts/lib/angular-messages.js"></script>
+<script src="scripts/lib/angular-route.js"></script>
+<script src="scripts/lib/jquery.js"></script>
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<script src="scripts/lib/bootstrap.min.js"></script>
+<script src="scripts/app.js"></script>
+<script src="scripts/controllers/cust.home.ctrl.js"></script>
+<script src="scripts/controllers/cust.makeReserve.ctrl.js"></script>
+<script src="scripts/controllers/cust.changeReserve.ctrl.js"></script>
+<script src="scripts/controllers/cust.adminLogin.ctrl.js"></script>
+<script src="scripts/controllers/cust.contact.ctrl.js"></script>
+<script src="scripts/controllers/admin.home.ctrl.js"></script>
+<script src="scripts/controllers/admin.settings.ctrl.js"></script>
+
+</body>
+</html>
