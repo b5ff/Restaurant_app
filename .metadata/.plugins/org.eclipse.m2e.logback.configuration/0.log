@@ -1368,3 +1368,11 @@
 2015-07-06 05:59:49,172 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/main/resources
 2015-07-06 05:59:49,173 [Worker-266] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2015-07-06 05:59:49,173 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/test/resources
+2015-07-07 11:11:50,328 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-07 11:11:50,396 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/main/resources
+2015-07-07 11:11:50,399 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-07 11:11:50,400 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/test/resources
+2015-07-07 11:54:15,642 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-07 11:54:15,678 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/main/resources
+2015-07-07 11:54:15,681 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-07-07 11:54:15,718 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vikasboinpally/Desktop/VikasWorkspace/Projects/Restaurant_app/Restaurant_app/src/test/resources
